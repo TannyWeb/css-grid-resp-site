@@ -1,0 +1,22 @@
+.main-nav ul{
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main-nav a{
+    background: #ddd;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+}
+
+.main-nav a:hover{
+    background: #333;
+    color: #fff;
+}
